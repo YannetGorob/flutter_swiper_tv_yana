@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter_page_indicator_tv/flutter_page_indicator.dart';
 import 'package:flutter_swiper_tv_yana/flutter_swiper.dart';
 import 'dart:async';

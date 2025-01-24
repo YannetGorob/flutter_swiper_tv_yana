@@ -1,7 +1,6 @@
 name: flutter_swiper_tv_yana
 description: The best swiper(carousel) for flutter, with multiple layouts, infinite loop. Compatible with Android & iOS.
-version: 1.1.8-nullsafety
-author: YannetGorob <yannet1412@gmail.com>
+version: 1.1.9-nullsafety
 homepage: https://github.com/YannetGorob/flutter_swiper_tv_yana.git
 
 dependencies:
@@ -18,5 +17,3 @@ environment:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-flutter:
