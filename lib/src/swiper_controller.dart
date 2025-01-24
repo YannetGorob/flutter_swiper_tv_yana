@@ -1,4 +1,4 @@
-import 'package:flutter_swiper_tv/src/swiper_plugin.dart';
+import 'package:flutter_swiper_tv_yana/flutter_swiper.dart';
 import 'package:transformer_page_view_tv/transformer_page_view.dart';
 
 class SwiperController extends IndexController {

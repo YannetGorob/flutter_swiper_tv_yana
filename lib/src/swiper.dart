@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_page_indicator_tv/flutter_page_indicator.dart';
-import 'package:flutter_swiper_tv/flutter_swiper.dart';
+import 'package:flutter_swiper_tv_yana/flutter_swiper.dart';
 import 'dart:async';
 
 import 'package:transformer_page_view_tv/transformer_page_view.dart';
@@ -398,7 +398,7 @@ class _SwiperState extends _SwiperTimerMixin {
     _activeIndex = widget.index ?? 0;
     if (_isPageViewLayout()) {
       _pageController = new TransformerPageController(
-          initialPage: widget.index ?? widget.controller.index ?? 0,
+          initialPage: widget.index ?? widget.controller?.index ?? 0,
           loop: widget.loop,
           itemCount: widget.itemCount,
           reverse:
